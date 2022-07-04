@@ -6,16 +6,21 @@ body{
 h1{
     font-size: 60px;
 }
+h2{
+    font-size: 45px;
+}
 .h-color{
     color: orange;
 }
-section{
+.flexiable{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
     padding: 2%;
 }
+
 .img{
     text-align: center;
 }
@@ -38,4 +43,26 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.shadow {
+    width: 40%;
+    padding: 2%;
+    box-shadow: 10px 10px 40px gray;
+    margin: 0 3%;
+    border-radius: 5px;
+}
+.expereince{
+    background-image: url(images/exp-bg.png);
+    background-position:left;
+    background-repeat: no-repeat;
+}
+.fullstack{
+    border-left: 7px solid tomato;
+}
+.baby{
+    border-left: 7px solid blue;
+}
+footer p{
+    text-align: center;
+    color: gray;
 }
